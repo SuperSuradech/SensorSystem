@@ -7,6 +7,19 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="rmutt.sorawith.suradech.sensorsystemdesign.TempActivity">
+    tools:context="rmutt.sorawith.suradech.sensorsystemdesign.TempActivity"
+    android:background="@drawable/p2">
 
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView7"
+            android:src="@drawable/temptast1" />
+    </LinearLayout>
 </RelativeLayout>

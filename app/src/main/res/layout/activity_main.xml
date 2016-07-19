@@ -8,7 +8,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="rmutt.sorawith.suradech.sensorsystemdesign.MainActivity"
-    android:background="@drawable/wallpapers_b_05">
+    android:background="@drawable/p4">
 
     <LinearLayout
         android:orientation="vertical"
@@ -19,9 +19,9 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:id="@+id/imageView"
-            android:src="@drawable/logonofill"
+            android:src="@drawable/howlogoo"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="50dp" />
+            android:layout_marginTop="20dp" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -32,33 +32,34 @@
             android:textSize="30dp"
             android:textStyle="bold"
             android:layout_marginTop="10dp"
-            android:textColor="@color/text" />
-
-        <LinearLayout
-            android:orientation="horizontal"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <ImageView
-                android:layout_width="@dimen/icon"
-                android:layout_height="@dimen/icon"
-                android:id="@+id/imageView2"
-                android:layout_weight="1"
-                android:src="@drawable/blue" />
-
-            <ImageView
-                android:layout_width="@dimen/icon"
-                android:layout_height="@dimen/icon"
-                android:id="@+id/imageView3"
-                android:layout_weight="1"
-                android:src="@drawable/green" />
-        </LinearLayout>
+            android:textColor="@android:color/holo_blue_bright" />
 
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp">
+
+            <ImageView
+                android:layout_width="@dimen/icon"
+                android:layout_height="122dp"
+                android:id="@+id/imageView2"
+                android:layout_weight="2.02"
+                android:src="@drawable/lamp12" />
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="131dp"
+                android:id="@+id/imageView3"
+                android:src="@drawable/stock"
+                android:layout_weight="1.17" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -71,7 +72,7 @@
                 android:gravity="center_horizontal"
                 android:singleLine="true"
                 android:phoneNumber="false"
-                android:textColor="@color/text" />
+                android:textColor="@android:color/holo_blue_bright" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -82,28 +83,28 @@
                 android:textSize="@dimen/h2"
                 android:textStyle="bold"
                 android:gravity="center_horizontal"
-                android:textColor="@color/text" />
+                android:textColor="@android:color/holo_blue_bright" />
         </LinearLayout>
 
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="30dp">
+            android:layout_marginTop="40dp">
 
             <ImageView
                 android:layout_width="@dimen/icon"
                 android:layout_height="@dimen/icon"
                 android:id="@+id/imageView4"
                 android:layout_weight="1"
-                android:src="@drawable/orange" />
+                android:src="@drawable/thermometers" />
 
             <ImageView
                 android:layout_width="@dimen/icon"
                 android:layout_height="@dimen/icon"
                 android:id="@+id/imageView5"
                 android:layout_weight="1"
-                android:src="@drawable/gray" />
+                android:src="@drawable/volth1" />
         </LinearLayout>
 
         <LinearLayout
@@ -121,7 +122,7 @@
                 android:textSize="@dimen/h2"
                 android:textStyle="bold"
                 android:gravity="center_horizontal"
-                android:textColor="@color/text" />
+                android:textColor="@android:color/holo_blue_bright" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -132,8 +133,9 @@
                 android:textSize="@dimen/h2"
                 android:textStyle="bold"
                 android:gravity="center_horizontal"
-                android:textColor="@color/text" />
+                android:textColor="@android:color/holo_blue_bright" />
         </LinearLayout>
+
     </LinearLayout>
 
 </RelativeLayout>
